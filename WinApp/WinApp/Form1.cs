@@ -16,5 +16,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label2.Text = string.Format("Hello {0}, Good day", textBox1.Text);
+        }
     }
 }
